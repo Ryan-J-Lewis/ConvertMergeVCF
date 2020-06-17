@@ -3,4 +3,6 @@
 
 ###CovertMergeHg19toHg38.py usage:
 
-'python ConvertMergeHg19toHg38.py '<input VCF.gz hg19>' '<input VCF.gz VCF.gz hg38>' '<output VCF hg38>''
+python ConvertMergeHg19toHg38.py "input VCF.gz hg19" "input VCF.gz hg38" "output VCF hg38"
+
+ex. python ConvertMergeHg19toHg38.py 1chr22hg19.VCF.gz 2chr22hg38.VCF.gz outchr22hg38.vcf
