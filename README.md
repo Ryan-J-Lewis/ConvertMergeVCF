@@ -12,3 +12,7 @@ ex. python ConvertHg19toHg38.py 1chr22hg19.vcf.gz outchr22hg38.vcf
 *python ConvertMergeHg19toHg38.py "input VCF.gz hg19" "input VCF.gz hg38" "output VCF hg38"*
 
 ex. python ConvertMergeHg19toHg38.py 1chr22hg19.VCF.gz 2chr22hg38.VCF.gz outchr22hg38.vcf
+
+
+
+To install the liftOver python package follw the instruction in this link: [pyliftover] (https://pypi.org/project/pyliftover/)
