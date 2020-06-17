@@ -20,7 +20,6 @@ for line in file:
         chrom = data[0]
         pos = int(data[1])
         converted = lo.convert_coordinate(chrom, pos)
-        print(converted)
         if converted != [] and converted != None:
             newChrom = str(converted[0][0])
             newPos = str(converted[0][1])
