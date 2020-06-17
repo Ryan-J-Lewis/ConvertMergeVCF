@@ -1,5 +1,5 @@
 # ConvertMergeVCF
-##**This repository contains python scripts that utilize the liftOver python package to Convert VCF.gz files aligned to hg19 and align them to hg38, then (if ConvertMergeHg19toHg38.py is used) merge the resulting file with another VCF.gz aligned to hg38.** 
+## **This repository contains python scripts that utilize the liftOver python package to Convert VCF.gz files aligned to hg19 and align them to hg38, then (if ConvertMergeHg19toHg38.py is used) merge the resulting file with another VCF.gz aligned to hg38.** 
 
 **ConvertHg19toHg38.py usage:**
 
@@ -15,4 +15,4 @@ ex. python ConvertMergeHg19toHg38.py 1chr22hg19.VCF.gz 2chr22hg38.VCF.gz outchr2
 
 
 
-###To install the liftOver python package follow the instruction in this link: [pyliftover] (https://pypi.org/project/pyliftover/)
+### To install the liftOver python package follow the instruction in this link: [pyliftover] (https://pypi.org/project/pyliftover/)
